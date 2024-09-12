@@ -1,0 +1,14 @@
+# Credit Card Fraud Detection Model
+
+## Introduction
+This project aims to detect fraudulent credit card transactions using a machine learning model.
+
+## Installation
+1. Clone the repository.
+2. Install the required dependencies using `pip install -r requirements.txt`.
+
+## Usage
+```python
+import credit-card-fraud-model
+model = credit-card-fraud-model.load_model('model_path')
+predictions = model.predict(data)
